@@ -34,7 +34,7 @@ CREATE TABLE `address` (
   `address line 2` varchar(1028) NOT NULL,
   `city` varchar(1028) NOT NULL,
   `state` varchar(1028) NOT NULL,
-  `zip  code` int(5) NOT NULL,
+  `zip_code` int(5) NOT NULL,
   `phone number` int(11) NOT NULL,
   `country` int(11) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
